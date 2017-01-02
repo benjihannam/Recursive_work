@@ -20,19 +20,19 @@ public class Sudoku {
         return true;
     }
 
-    //check the current row we changed
-    public boolean checkRow(){
+    //check the current row we changed, row = i % 9
+    public boolean checkRow(int row){
         return true;
     }
 
-    //check the current column
-    public boolean checkColumn(){
+    //check the current column, col = i
+    public boolean checkColumn(int col){
         return true;
 
     }
 
-    //check the current "box"
-    public boolean checkBox(){
+    //check the current "box", box =
+    public boolean checkBox(int box){
         return true;
 
     }
