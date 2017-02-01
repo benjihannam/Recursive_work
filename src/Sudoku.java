@@ -71,7 +71,7 @@ public class Sudoku {
             for(int y = 0; y < 3; y++){
                 //if the set already contains the number then return false
 
-                //otherwise add the number in a continue
+                //otherwise add the number and continue
             }
         }
         return true;
